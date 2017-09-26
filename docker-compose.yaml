@@ -1,0 +1,9 @@
+version: '2'
+services:
+  simple-proxy:
+    build: .
+    image: simple-proxy
+    environment:
+      TARGET_HOST: 82.223.32.22
+      TARGET_PORT: 781
+    ports: ["80:8001", "8002:8002", "8003:8003", "8088:8088"]

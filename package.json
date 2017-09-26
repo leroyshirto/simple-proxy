@@ -1,0 +1,24 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "description": "A Simple Redirection Proxy",
+  "main": "redirect_rule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:leroyshirtoFH/simple-proxy.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Leroy Shirto",
+  "license": "ISC",
+  "dependencies": {
+    "anyproxy": "^3.10.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1"
+  }
+}
